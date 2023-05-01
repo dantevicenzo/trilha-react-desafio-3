@@ -6,7 +6,8 @@ const theme = {
         grey: '#565656',
         yellow: '#E5E044',
         green: '#23DD7A',
-        charcoal: '#3B4651'
+        charcoal: '#3B4651',
+        black: '#151515'
     },
     fontSizes: {
         default: '18px',

@@ -1,6 +1,7 @@
 import { Header as StyledHeader, LeftContainer, RightContainer } from "./style"
 import Button from '../Button' 
 import logo from '../../assets/logo-dio.png'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
             <img src={logo} />
         </LeftContainer>
         <RightContainer>
-            <a href="#"> Home </a>
+            <Link to="/">Home</Link>
             <Button text="Entrar"/>
             <Button text="Cadastrar"/>
         </RightContainer>

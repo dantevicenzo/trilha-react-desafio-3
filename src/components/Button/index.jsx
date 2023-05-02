@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import { Button as StyledButton } from "./style"
 
-export default function Button({text}) {
+export default function Button(props) {
   return (
-    <StyledButton>
-        {text}
+    <StyledButton btnStyle={ props.btnStyle }>
+        { props.text }
     </StyledButton>
   )
 }

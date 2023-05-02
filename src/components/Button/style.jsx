@@ -10,6 +10,7 @@ export const Button = styled.button`
 
     ${({btnStyle}) => btnStyle?.includes("pink") && css`
         width: auto;
+        align-self: flex-start;
         padding: 6px 18px;
         background-color: ${({theme}) => theme.colors.pink};
 

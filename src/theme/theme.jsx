@@ -9,11 +9,16 @@ const theme = {
         charcoal: '#3B4651',
         black: '#151515'
     },
+    fontFamily:"Open-Sans, Helvetica, Sans-Serif",
     fontSizes: {
         default: '18px',
         h1: '32px',
         p: '16px',
         small: '12px',
+    },
+    lineHeights: {
+        h1: '42px',
+        p: '21px',
     }
 }
 

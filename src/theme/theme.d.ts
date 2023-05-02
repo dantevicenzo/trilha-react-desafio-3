@@ -12,11 +12,16 @@ declare module 'styled-components' {
             charcoal: string,
             black: string
         },
+        fontFamily: string,
         fontSizes: {
             default: string,
             h1: string,
             p: string,
             small: string,
+        },
+        lineHeights: {
+            h1: string,
+            p: string,
         }
     }
 }
